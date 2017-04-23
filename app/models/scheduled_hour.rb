@@ -1,0 +1,2 @@
+class ScheduledHour < ApplicationRecord
+end

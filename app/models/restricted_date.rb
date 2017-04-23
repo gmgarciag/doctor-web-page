@@ -1,0 +1,2 @@
+class RestrictedDate < ApplicationRecord
+end

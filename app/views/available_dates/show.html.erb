@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Day:</strong>
+  <%= @available_date.day %>
+</p>
+
+<p>
+  <strong>Hour:</strong>
+  <%= @available_date.hour %>
+</p>
+
+<p>
+  <strong>Minute:</strong>
+  <%= @available_date.minute %>
+</p>
+
+<%= link_to 'Edit', edit_available_date_path(@available_date) %> |
+<%= link_to 'Back', available_dates_path %>

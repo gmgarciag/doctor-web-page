@@ -1,0 +1,2 @@
+class RestrictedSchedule < ApplicationRecord
+end
