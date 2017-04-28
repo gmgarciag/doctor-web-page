@@ -4,7 +4,6 @@ class CreateAvailableDates < ActiveRecord::Migration[5.0]
       t.string :day
       t.integer :hour
       t.integer :minute
-
       t.timestamps
     end
   end
